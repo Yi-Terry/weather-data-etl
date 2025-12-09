@@ -1,0 +1,145 @@
+2025-12-04 21:01:36.971 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-12-04 21:01:36.971 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-12-04 21:01:36.971 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-12-04 21:01:36.971 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-12-04 21:01:37.142 [error] Copilot extension not found
+2025-12-04 21:01:37.143 [warning] Copilot API is undefined, unable to register context provider.
+2025-12-04 21:01:37.202 [info] Logged in as Yi-Terry
+2025-12-04 21:01:37.206 [info] Can't use the Electron fetcher in this environment.
+2025-12-04 21:01:37.206 [info] Using the Node fetch fetcher.
+2025-12-04 21:01:37.783 [info] FetcherService: node-fetch failed with status: 403 
+2025-12-04 21:01:38.048 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-12-04 21:01:38.049 [warning] Invalid copilot token: missing token: 403 
+2025-12-04 21:01:38.051 [error] Error: No access to GitHub Copilot found. You are currently logged in as Yi-Terry.
+	at FG._authShowWarnings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:31940)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async FG.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+	at async LV.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+	at async KI.waitForChatEnabled (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:29370)
+	at async KI.run (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:29254)
+	at async n5.askToUpgradeAuthPermissions (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:28734): Failed to get copilot token
+2025-12-04 21:01:38.051 [error] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as Yi-Terry."
+2025-12-04 21:01:38.051 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-12-04 21:01:38.051 [error] Error: No access to GitHub Copilot found. You are currently logged in as Yi-Terry.
+	at FG._authShowWarnings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:31940)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async FG.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+	at async LV.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+	at async k6._getToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1122:5850)
+	at async r (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1122:5314)
+	at async k6._registerEmbeddings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1122:5811)
+	at async Promise.all (index 1)
+	at async Promise.allSettled (index 1)
+	at async QB.waitForActivationBlockers (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:938:1262)
+	at async /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:938:2021
+	at async S_t (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:938:1889)
+	at async Uy.n (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+	at async Uy.m (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+	at async Uy.l (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+2025-12-04 21:01:38.051 [info] activationBlocker from 'languageModelAccess' took for 934ms
+2025-12-04 21:04:56.517 [info] Logged in as Yi-Terry
+2025-12-04 21:04:56.789 [info] FetcherService: node-fetch failed with status: 403 
+2025-12-04 21:04:57.039 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-12-04 21:04:57.041 [warning] Invalid copilot token: missing token: 403 
+2025-12-04 21:04:57.051 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [rce [Error]: No access to GitHub Copilot found. You are currently logged in as Yi-Terry.
+	at FG._authShowWarnings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:31940)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async FG.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+	at async LV.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+	at async vj.updateCachedToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1914:35986)
+	at async Dr.updateExPValuesAndAssignments (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1920:5709)
+	at async e8r (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:2155:10090)
+	at async Htt (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:2155:6893)
+	at async vGr (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:1302)
+	at async Rhn (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:2164)
+	at async xG.provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:2831)
+	at async TG._provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:1944)
+	at async TG.provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:1267)
+	at async Na.provideInlineCompletions (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:142:155567)]
+2025-12-04 21:04:57.052 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [rce [Error]: No access to GitHub Copilot found. You are currently logged in as Yi-Terry.
+	at FG._authShowWarnings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:31940)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async FG.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+	at async LV.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+	at async vj.updateCachedToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1914:35986)
+	at async Dr.updateExPValuesAndAssignments (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1920:5709)
+	at async e8r (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:2155:10090)
+	at async Htt (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:2155:6893)
+	at async vGr (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:1302)
+	at async Rhn (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:2164)
+	at async xG.provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:2831)
+	at async TG._provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:1944)
+	at async TG.provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:1267)
+	at async Na.provideInlineCompletions (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:142:155567)]
+2025-12-04 21:04:57.053 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [rce [Error]: No access to GitHub Copilot found. You are currently logged in as Yi-Terry.
+	at FG._authShowWarnings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:31940)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async FG.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+	at async LV.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+	at async vj.updateCachedToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1914:35986)
+	at async Dr.updateExPValuesAndAssignments (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1920:5709)
+	at async e8r (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:2155:10090)
+	at async Htt (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:2155:6893)
+	at async vGr (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:1302)
+	at async Rhn (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:2164)
+	at async xG.provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:2831)
+	at async TG._provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:1944)
+	at async TG.provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:1267)
+	at async Na.provideInlineCompletions (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:142:155567)]
+2025-12-04 21:04:57.053 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [rce [Error]: No access to GitHub Copilot found. You are currently logged in as Yi-Terry.
+	at FG._authShowWarnings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:31940)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async FG.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+	at async LV.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+	at async vj.updateCachedToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1914:35986)
+	at async Dr.updateExPValuesAndAssignments (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1920:5709)
+	at async e8r (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:2155:10090)
+	at async Htt (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:2155:6893)
+	at async vGr (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:1302)
+	at async Rhn (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:2164)
+	at async xG.provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:2831)
+	at async TG._provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:1944)
+	at async TG.provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:1267)
+	at async Na.provideInlineCompletions (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:142:155567)]
+2025-12-04 21:04:57.053 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [rce [Error]: No access to GitHub Copilot found. You are currently logged in as Yi-Terry.
+	at FG._authShowWarnings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:31940)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async FG.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+	at async LV.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+	at async vj.updateCachedToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1914:35986)
+	at async Dr.updateExPValuesAndAssignments (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1920:5709)
+	at async e8r (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:2155:10090)
+	at async Htt (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:2155:6893)
+	at async vGr (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:1302)
+	at async Rhn (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:2164)
+	at async xG.provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:2831)
+	at async TG._provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:1944)
+	at async TG.provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:1267)
+	at async Na.provideInlineCompletions (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:142:155567)]
+2025-12-04 21:04:57.126 [info] Logged in as Yi-Terry
+2025-12-04 21:04:57.241 [info] FetcherService: node-fetch failed with status: 403 
+2025-12-04 21:04:57.444 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-12-04 21:04:57.445 [warning] Invalid copilot token: missing token: 403 
+2025-12-04 21:04:57.447 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [rce [Error]: No access to GitHub Copilot found. You are currently logged in as Yi-Terry.
+	at FG._authShowWarnings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:31940)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async FG.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+	at async LV.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+	at async vj.updateCachedToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1914:35986)
+	at async Dr.updateExPValuesAndAssignments (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1920:5709)
+	at async e8r (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:2155:10090)
+	at async Htt (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:2155:6893)
+	at async vGr (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:1302)
+	at async Rhn (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:2164)
+	at async xG.provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4027:2831)
+	at async TG._provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:1944)
+	at async TG.provideInlineCompletionItems (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:1267)
+	at async Na.provideInlineCompletions (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:142:155567)]
+2025-12-04 21:04:57.545 [info] Logged in as Yi-Terry
+2025-12-04 21:04:57.689 [info] FetcherService: node-fetch failed with status: 403 
+2025-12-04 21:04:57.911 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-12-04 21:04:57.913 [warning] Invalid copilot token: missing token: 403 
+2025-12-04 21:05:02.544 [info] Logged in as Yi-Terry
+2025-12-04 21:05:02.723 [info] FetcherService: node-fetch failed with status: 403 
+2025-12-04 21:05:02.928 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-12-04 21:05:02.929 [warning] Invalid copilot token: missing token: 403 

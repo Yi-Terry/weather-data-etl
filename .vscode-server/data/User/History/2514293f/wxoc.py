@@ -1,0 +1,33 @@
+import sys
+from airflow import DAG
+from airflow.operators.python import PythonOperator
+from datetime import datetime, timedelta
+
+sys.path.append('/opt/airflow/api-request')
+
+
+def safe_main_callable():
+    from /opt/airflow/repos/wether import main
+    return main()
+
+def example_task():
+    print('This is an example task')
+
+default_args = {
+    'description':'A DAG to orchestrate data',
+    'start_date':datetime(2025,12,7),
+    'catchup':False,
+
+}
+
+dag = DAG(
+    dag_id = 'weather-api-orchestrator',
+    default_args=default_args,
+    schedule=timedelta(minutes=5)
+)
+
+with dag:
+    task1 = PythonOperator(
+        task_id='example_task',
+        python_callable=safe_main_callable
+    )

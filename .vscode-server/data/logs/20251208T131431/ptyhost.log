@@ -1,0 +1,5 @@
+2025-12-08 13:14:32.444 [info] Revived process, old id e39366520361ec2837b6424db95ec0a2-17 -> new id 1
+2025-12-08 13:14:32.444 [info] Revived process, old id e39366520361ec2837b6424db95ec0a2-18 -> new id 2
+2025-12-08 13:14:32.444 [info] Revived process, old id e39366520361ec2837b6424db95ec0a2-20 -> new id 3
+2025-12-08 13:15:44.408 [info] Expanding terminal instance, old id e39366520361ec2837b6424db95ec0a2-4 -> new id undefined
+2025-12-08 13:15:44.408 [warning] Couldn't get layout info, a terminal was probably disconnected Could not find pty 4 on pty host

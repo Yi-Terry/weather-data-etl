@@ -1,0 +1,93 @@
+2025-12-07 12:46:14.275 [info] Client: Pylance client (2025.10.4) started with python extension (2025.18.0)
+2025-12-07 12:46:14.961 [info] (2017): Server root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 12:46:14.962 [info] (2017): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2025-12-07 12:46:14.971 [info] (2017): Starting service instance "terry" for workspace "/home/terry"
+2025-12-07 12:46:16.328 [info] (2017): Loading background bundle file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into file:///home/terry...
+2025-12-07 12:46:16.431 [info] (2017): FG(terry): Setting environmentName for service "terry": "3.12.3 (global)"
+2025-12-07 12:46:16.431 [info] (2017): FG(terry): Setting pythonPath for service "terry": "/bin/python3"
+2025-12-07 12:46:16.432 [info] (2017): FG(terry): No include entries specified; assuming /home/terry
+2025-12-07 12:46:16.433 [info] (2017): FG(terry): Auto-excluding **/node_modules
+2025-12-07 12:46:16.433 [info] (2017): FG(terry): Auto-excluding **/__pycache__
+2025-12-07 12:46:16.433 [info] (2017): FG(terry): Auto-excluding **/.*
+2025-12-07 12:46:16.474 [info] (2017): FG(terry): Assuming Python version 3.12.3.final.0
+2025-12-07 12:46:16.565 [info] (2017): Settings have not changed. Skipping update.
+2025-12-07 12:46:16.797 [info] (2017): Starting Mcp server id:5846 ...
+2025-12-07 12:46:17.082 [info] (2017): PQ(terry): Priority queue background worker(2) root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 12:46:17.084 [info] (2017): PQ(terry): Priority queue background worker(2) started
+2025-12-07 12:46:17.299 [info] (2017): IDX(terry): Indexer background runner(3) root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist (index)
+2025-12-07 12:46:17.299 [info] (2017): IDX(terry): Indexing(3) started
+2025-12-07 12:46:17.374 [info] (2017): FG(terry): Found 2 source files
+2025-12-07 12:46:17.482 [info] (2017): BG(terry): Loaded external background bundle file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2025-12-07 12:46:17.940 [info] (2017): IDX(terry): scanned(3) 73 files over 1 exec env
+2025-12-07 12:46:18.176 [info] (2017): IDX(terry): indexed(3) 73 files over 1 exec env
+2025-12-07 12:46:18.199 [info] (2017): IDX(terry): Indexing finished(3).
+2025-12-07 12:46:23.914 [info] (2017): Starting service instance "<default>" for workspace ""
+2025-12-07 12:46:23.914 [info] (2017): Loading background bundle file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into ...
+2025-12-07 12:46:23.951 [info] (2017): FG(<default>): Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-12-07 12:46:23.951 [info] (2017): FG(<default>): Setting pythonPath for service "<default>": "/bin/python3"
+2025-12-07 12:46:23.951 [info] (2017): FG(<default>): No include entries specified; assuming /<default workspace root>
+2025-12-07 12:46:23.951 [info] (2017): FG(<default>): Auto-excluding **/node_modules
+2025-12-07 12:46:23.951 [info] (2017): FG(<default>): Auto-excluding **/__pycache__
+2025-12-07 12:46:23.951 [info] (2017): FG(<default>): Auto-excluding **/.*
+2025-12-07 12:46:23.998 [info] (2017): FG(<default>): Assuming Python version 3.12.3.final.0
+2025-12-07 12:46:24.070 [error] (2017): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2025-12-07 12:46:24.070 [info] (2017): FG(<default>): No source files found.
+2025-12-07 12:46:24.536 [info] (2017): PQ(<default>): Priority queue background worker(5) root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 12:46:24.546 [info] (2017): PQ(<default>): Priority queue background worker(5) started
+2025-12-07 12:46:24.869 [info] (2017): BG(<default>): Loaded external background bundle file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2025-12-07 12:49:13.698 [info] (2017): IDX(terry): Indexer background runner(6) root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist (refresh)
+2025-12-07 12:49:13.699 [info] (2017): IDX(terry): Indexing(6) started
+2025-12-07 12:49:14.343 [info] (2017): IDX(terry): scanned(6) 73 files over 1 exec env
+2025-12-07 12:49:14.621 [info] (2017): IDX(terry): indexed(6) 73 files over 1 exec env
+2025-12-07 12:49:14.653 [info] (2017): IDX(terry): Indexing finished(6).
+2025-12-07 12:51:19.997 [error] Unhandled Rejection in Pylance: A [Error]: request cancelled
+2025-12-07 12:51:19.997 [error]     at t.throwIfCancellationRequested (/home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/pyright.bundle.js:1:2396887)
+2025-12-07 12:51:19.997 [error]     at _0x33b4cd._throwIfOutOfDate (/home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:587355)
+2025-12-07 12:51:19.997 [error]     at _0x33b4cd.getSourceMapper (/home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:574316)
+2025-12-07 12:51:19.997 [error]     at new _0x2e7d4a (/home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:1062380)
+2025-12-07 12:51:19.997 [error]     at /home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:2379024
+2025-12-07 12:51:19.997 [error]     at _0x47daa6 (/home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:1633668)
+2025-12-07 12:51:19.997 [error]     at /home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:2378905
+2025-12-07 12:51:19.997 [error]     at _0x33b4cd.runAsync (/home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:573308)
+2025-12-07 12:51:19.997 [error]     at _0x1a7312._runCoreAsync (/home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:365268)
+2025-12-07 12:51:19.997 [error]     at _0x35ea16.handleSignatureHelp (/home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:2378708)
+2025-12-07 12:51:19.997 [error]     at /home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/vendor.bundle.js:2:2210000 {
+2025-12-07 12:51:19.997 [error]   code: -32800,
+2025-12-07 12:51:19.997 [error]   data: undefined,
+2025-12-07 12:51:19.997 [error]   isTypeCacheInvalid: false
+2025-12-07 12:51:19.997 [error] }
+2025-12-07 12:51:20.299 [error] Server process exited with code 10.
+2025-12-07 12:51:20.304 [info] Connection to server got closed. Server will restart.
+2025-12-07 12:51:20.880 [info] (3792): Server root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 12:51:20.884 [info] (3792): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2025-12-07 12:51:20.893 [info] (3792): Starting service instance "terry" for workspace "/home/terry"
+2025-12-07 12:51:21.076 [info] Client: Failed to provide MCP server definitions: Error: Unhandled method python/mcpPort
+2025-12-07 12:51:21.139 [info] (3792): FG(terry): Setting environmentName for service "terry": "3.12.3 (global)"
+2025-12-07 12:51:21.140 [info] (3792): FG(terry): Setting pythonPath for service "terry": "/bin/python3"
+2025-12-07 12:51:21.140 [info] (3792): FG(terry): No include entries specified; assuming /home/terry
+2025-12-07 12:51:21.143 [info] (3792): FG(terry): Auto-excluding **/node_modules
+2025-12-07 12:51:21.144 [info] (3792): FG(terry): Auto-excluding **/__pycache__
+2025-12-07 12:51:21.147 [info] (3792): FG(terry): Auto-excluding **/.*
+2025-12-07 12:51:21.181 [info] (3792): FG(terry): Assuming Python version 3.12.3.final.0
+2025-12-07 12:51:21.277 [info] (3792): Settings have not changed. Skipping update.
+2025-12-07 12:51:21.278 [info] (3792): Starting service instance "<default>" for workspace ""
+2025-12-07 12:51:21.839 [info] (3792): FG(<default>): Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-12-07 12:51:21.840 [info] (3792): FG(<default>): Setting pythonPath for service "<default>": "/bin/python3"
+2025-12-07 12:51:21.840 [info] (3792): FG(<default>): No include entries specified; assuming /<default workspace root>
+2025-12-07 12:51:21.840 [info] (3792): FG(<default>): Auto-excluding **/node_modules
+2025-12-07 12:51:21.840 [info] (3792): FG(<default>): Auto-excluding **/__pycache__
+2025-12-07 12:51:21.840 [info] (3792): FG(<default>): Auto-excluding **/.*
+2025-12-07 12:51:21.840 [info] (3792): FG(<default>): Assuming Python version 3.12.3.final.0
+2025-12-07 12:51:22.105 [error] (3792): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2025-12-07 12:51:22.105 [info] (3792): FG(<default>): No source files found.
+2025-12-07 12:51:22.111 [info] (3792): PQ(terry): Priority queue background worker(2) root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 12:51:22.111 [info] (3792): PQ(terry): Priority queue background worker(2) started
+2025-12-07 12:51:22.230 [info] (3792): IDX(terry): Indexer background runner(3) root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist (index)
+2025-12-07 12:51:22.230 [info] (3792): IDX(terry): Indexing(3) started
+2025-12-07 12:51:22.323 [info] (3792): FG(terry): Found 2 source files
+2025-12-07 12:51:22.721 [info] (3792): PQ(<default>): Priority queue background worker(5) root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 12:51:22.726 [info] (3792): PQ(<default>): Priority queue background worker(5) started
+2025-12-07 12:51:23.051 [info] (3792): IDX(terry): scanned(3) 73 files over 1 exec env
+2025-12-07 12:51:23.253 [info] (3792): IDX(terry): indexed(3) 73 files over 1 exec env
+2025-12-07 12:51:23.272 [info] (3792): IDX(terry): Indexing finished(3).
+2025-12-07 13:47:28.816 [info] (3792): FG(terry): Found 3 source files

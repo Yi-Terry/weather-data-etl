@@ -1,0 +1,14 @@
+{
+  "environment": {
+    "executable": "/home/terry/repos/weather-data-project/.venv/bin/python",
+    "prefix": "/home/terry/repos/weather-data-project/.venv",
+    "version": "3.12.3.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/home/terry/repos/weather-data-project/.venv/bin/python",
+      "/home/terry/repos/weather-data-project/.venv/bin/python3",
+      "/home/terry/repos/weather-data-project/.venv/bin/python3.12"
+    ]
+  },
+  "symlinks": []
+}

@@ -1,0 +1,11 @@
+2025-12-07 18:08:30.979 [info] Revived process, old id e39366520361ec2837b6424db95ec0a2-1 -> new id 1
+2025-12-07 18:08:30.980 [info] Revived process, old id e39366520361ec2837b6424db95ec0a2-4 -> new id 2
+2025-12-07 18:08:30.980 [info] Revived process, old id e39366520361ec2837b6424db95ec0a2-6 -> new id 3
+2025-12-07 18:08:30.980 [info] Revived process, old id e39366520361ec2837b6424db95ec0a2-7 -> new id 4
+2025-12-07 18:08:30.980 [info] Revived process, old id e39366520361ec2837b6424db95ec0a2-9 -> new id 5
+2025-12-07 18:08:30.980 [info] Revived process, old id e39366520361ec2837b6424db95ec0a2-10 -> new id 6
+2025-12-07 18:14:06.844 [info] Revived process, old id e39366520361ec2837b6424db95ec0a2-7 -> new id 9
+2025-12-07 18:14:06.856 [info] Expanding terminal instance, old id e39366520361ec2837b6424db95ec0a2-7 -> new id 9
+2025-12-07 18:14:07.608 [warning] Persistent process "9": Process had no disconnect runners but was an orphan
+2025-12-07 18:14:07.609 [info] Persistent process reconnection "9"
+2025-12-07 18:14:07.624 [info] Persistent process "9": Replaying 543 chars and 1 size events

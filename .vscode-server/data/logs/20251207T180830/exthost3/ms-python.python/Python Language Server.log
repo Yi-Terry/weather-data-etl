@@ -1,0 +1,49 @@
+2025-12-07 18:14:10.774 [info] Client: Pylance client (2025.10.4) started with python extension (2025.18.0)
+2025-12-07 18:14:11.390 [info] (2301): Server root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 18:14:11.391 [info] (2301): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2025-12-07 18:14:11.416 [info] (2301): Starting service instance "terry" for workspace "/home/terry"
+2025-12-07 18:14:12.660 [info] (2301): Loading background bundle file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into file:///home/terry...
+2025-12-07 18:14:12.738 [info] (2301): FG(terry): Setting environmentName for service "terry": "3.12.3 (global)"
+2025-12-07 18:14:12.738 [info] (2301): FG(terry): Setting pythonPath for service "terry": "/bin/python3"
+2025-12-07 18:14:12.739 [info] (2301): FG(terry): No include entries specified; assuming /home/terry
+2025-12-07 18:14:12.739 [info] (2301): FG(terry): Auto-excluding **/node_modules
+2025-12-07 18:14:12.739 [info] (2301): FG(terry): Auto-excluding **/__pycache__
+2025-12-07 18:14:12.739 [info] (2301): FG(terry): Auto-excluding **/.*
+2025-12-07 18:14:12.771 [info] (2301): FG(terry): Assuming Python version 3.12.3.final.0
+2025-12-07 18:14:12.865 [info] (2301): Settings have not changed. Skipping update.
+2025-12-07 18:14:13.071 [info] (2301): Starting Mcp server id:3640 ...
+2025-12-07 18:14:13.326 [info] (2301): FG(terry): Found 3 source files
+2025-12-07 18:14:13.372 [info] (2301): PQ(terry): Priority queue background worker(2) root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 18:14:13.373 [info] (2301): PQ(terry): Priority queue background worker(2) started
+2025-12-07 18:14:13.550 [info] (2301): IDX(terry): Indexer background runner(3) root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist (index)
+2025-12-07 18:14:13.550 [info] (2301): IDX(terry): Indexing(3) started
+2025-12-07 18:14:13.707 [info] (2301): BG(terry): Loaded external background bundle file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2025-12-07 18:14:14.127 [info] (2301): IDX(terry): scanned(3) 73 files over 1 exec env
+2025-12-07 18:14:14.320 [info] (2301): IDX(terry): indexed(3) 73 files over 1 exec env
+2025-12-07 18:14:14.346 [info] (2301): IDX(terry): Indexing finished(3).
+2025-12-07 18:21:23.512 [info] (2301): Starting service instance "<default>" for workspace ""
+2025-12-07 18:21:23.514 [info] (2301): Loading background bundle file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into ...
+2025-12-07 18:21:23.701 [info] (2301): FG(<default>): Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-12-07 18:21:23.701 [info] (2301): FG(<default>): Setting pythonPath for service "<default>": "/bin/python3"
+2025-12-07 18:21:23.701 [info] (2301): FG(<default>): No include entries specified; assuming /<default workspace root>
+2025-12-07 18:21:23.702 [info] (2301): FG(<default>): Auto-excluding **/node_modules
+2025-12-07 18:21:23.702 [info] (2301): FG(<default>): Auto-excluding **/__pycache__
+2025-12-07 18:21:23.702 [info] (2301): FG(<default>): Auto-excluding **/.*
+2025-12-07 18:21:23.743 [info] (2301): FG(<default>): Assuming Python version 3.12.3.final.0
+2025-12-07 18:21:23.844 [error] (2301): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2025-12-07 18:21:23.844 [info] (2301): FG(<default>): No source files found.
+2025-12-07 18:21:24.276 [info] (2301): PQ(<default>): Priority queue background worker(5) root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 18:21:24.276 [info] (2301): PQ(<default>): Priority queue background worker(5) started
+2025-12-07 18:21:24.620 [info] (2301): BG(<default>): Loaded external background bundle file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2025-12-07 18:24:19.804 [info] (2301): 
+*Warning*: Pylance failed to parse docstring at offset 3694
+
+ Outputting literal text instead.
+2025-12-07 18:44:29.002 [info] (2301): 
+*Warning*: Pylance failed to parse docstring at offset 3694
+
+ Outputting literal text instead.
+2025-12-07 19:03:16.434 [info] (2301): FG(terry): Found 2 source files
+2025-12-07 19:03:26.577 [info] (2301): FG(terry): Found 3 source files
+2025-12-07 19:36:42.980 [info] (2301): FG(terry): Found 3 source files
+2025-12-07 20:30:39.346 [info] (2301): FG(terry): Found 3 source files

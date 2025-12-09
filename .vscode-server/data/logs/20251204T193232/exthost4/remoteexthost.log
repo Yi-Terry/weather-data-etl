@@ -1,0 +1,54 @@
+2025-12-04 21:01:03.099 [info] Extension host with pid 21898 started
+2025-12-04 21:01:03.310 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilotcli'
+2025-12-04 21:01:04.017 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:402:6611)
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:102:48546
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1:262
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:102:50939
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1:262
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:102:52010
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1:262
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:102:54196
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1:262
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:111:2598
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1:262
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:112:2671
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1:262
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:112:9346
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1:262
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:114:21444
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1:262
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:114:25511
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1:262
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:114:27010
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1:262
+    at Object.<anonymous> (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1914:22058)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1263:12)
+    at e._load (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:402:5984)
+    at t._load (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:220:22582)
+    at s._load (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:212:24094)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at kX.Cb (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:251:1253)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-04 21:01:04.564 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-12-04 21:01:04.616 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-12-04 21:01:04.616 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-04 21:01:04.819 [info] Eager extensions activated
+2025-12-04 21:01:04.819 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-04 21:01:04.819 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-04 21:01:04.998 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at QKt.$registerAgent (vscode-file://vscode-app/c:/Users/nyter/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:511:6057)
+2025-12-04 21:01:06.737 [error] Error: No access to GitHub Copilot found. You are currently logged in as Yi-Terry.
+	at FG._authShowWarnings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:31940)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async FG.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+	at async LV.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+	at async vj.updateCachedToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1914:35986)
+2025-12-04 21:01:29.376 [info] Extension host terminating: received terminate message from renderer
+2025-12-04 21:01:29.393 [info] Extension host with pid 21898 exiting with code 0

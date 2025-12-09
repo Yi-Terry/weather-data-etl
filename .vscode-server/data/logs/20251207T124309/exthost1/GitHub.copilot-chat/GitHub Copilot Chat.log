@@ -1,0 +1,39 @@
+2025-12-07 12:43:13.078 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-12-07 12:43:13.078 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-12-07 12:43:13.078 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-12-07 12:43:13.078 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-12-07 12:43:13.255 [error] Copilot extension not found
+2025-12-07 12:43:13.256 [warning] Copilot API is undefined, unable to register context provider.
+2025-12-07 12:43:13.530 [info] Logged in as Yi-Terry
+2025-12-07 12:43:13.534 [info] Can't use the Electron fetcher in this environment.
+2025-12-07 12:43:13.534 [info] Using the Node fetch fetcher.
+2025-12-07 12:43:14.138 [info] FetcherService: node-fetch failed with status: 403 
+2025-12-07 12:43:14.352 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-12-07 12:43:14.353 [warning] Invalid copilot token: missing token: 403 
+2025-12-07 12:43:14.354 [error] Error: No access to GitHub Copilot found. You are currently logged in as Yi-Terry.
+	at FG._authShowWarnings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:31940)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async FG.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+	at async LV.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+	at async KI.waitForChatEnabled (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:29370)
+	at async KI.run (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:29254)
+	at async n5.askToUpgradeAuthPermissions (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:28734): Failed to get copilot token
+2025-12-07 12:43:14.354 [error] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as Yi-Terry."
+2025-12-07 12:43:14.354 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-12-07 12:43:14.354 [error] Error: No access to GitHub Copilot found. You are currently logged in as Yi-Terry.
+	at FG._authShowWarnings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:31940)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async FG.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+	at async LV.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+	at async k6._getToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1122:5850)
+	at async r (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1122:5314)
+	at async k6._registerEmbeddings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1122:5811)
+	at async Promise.all (index 1)
+	at async Promise.allSettled (index 1)
+	at async QB.waitForActivationBlockers (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:938:1262)
+	at async /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:938:2021
+	at async S_t (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:938:1889)
+	at async Uy.n (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+	at async Uy.m (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+	at async Uy.l (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+2025-12-07 12:43:14.355 [info] activationBlocker from 'languageModelAccess' took for 1122ms

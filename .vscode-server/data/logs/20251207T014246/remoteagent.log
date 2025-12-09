@@ -1,0 +1,23 @@
+2025-12-07 01:42:47.042 [info] 
+
+
+
+
+2025-12-07 01:42:47.056 [info] Extension host agent started.
+2025-12-07 01:42:47.202 [info] [127.0.0.1][01eab43b][ManagementConnection] New connection established.
+2025-12-07 01:42:47.206 [info] Deleted marked for removal extension from disk mikoz.black-py /home/terry/.vscode-server/extensions/mikoz.black-py-1.0.4
+2025-12-07 01:42:47.206 [info] Marked extension as removed mikoz.black-py-1.0.4
+2025-12-07 01:42:47.824 [info] [127.0.0.1][74f2fcb6][ExtensionHostConnection] New connection established.
+2025-12-07 01:42:47.829 [info] [127.0.0.1][74f2fcb6][ExtensionHostConnection] <568> Launched Extension Host Process.
+2025-12-07 01:44:00.588 [info] [127.0.0.1][01eab43b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-12-07 01:44:00.705 [info] [127.0.0.1][74f2fcb6][ExtensionHostConnection] <568> Extension Host Process exited with code: 0, signal: null.
+2025-12-07 01:44:03.809 [info] [127.0.0.1][3c8f09fa][ManagementConnection] New connection established.
+2025-12-07 01:44:05.194 [info] [127.0.0.1][1470d8ea][ExtensionHostConnection] New connection established.
+2025-12-07 01:44:05.201 [info] [127.0.0.1][1470d8ea][ExtensionHostConnection] <924> Launched Extension Host Process.
+2025-12-07 01:44:55.781 [info] [127.0.0.1][3c8f09fa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-12-07 01:44:55.884 [info] [127.0.0.1][1470d8ea][ExtensionHostConnection] <924> Extension Host Process exited with code: 0, signal: null.
+2025-12-07 01:44:57.803 [info] [127.0.0.1][2aac6542][ManagementConnection] New connection established.
+2025-12-07 01:44:58.240 [info] [127.0.0.1][c755da43][ExtensionHostConnection] New connection established.
+2025-12-07 01:44:58.245 [info] [127.0.0.1][c755da43][ExtensionHostConnection] <1354> Launched Extension Host Process.
+2025-12-07 01:51:16.315 [info] [127.0.0.1][2aac6542][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-12-07 01:51:16.479 [info] [127.0.0.1][c755da43][ExtensionHostConnection] <1354> Extension Host Process exited with code: 0, signal: null.

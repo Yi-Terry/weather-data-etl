@@ -1,0 +1,28 @@
+2025-12-07 18:08:35.598 [info] Starting Python Locator /home/terry/.vscode-server/extensions/ms-python.python-2025.18.0-linux-x64/python-env-tools/bin/pet server
+2025-12-07 18:08:36.130 [info] Discovered env: /bin/python3
+2025-12-07 18:08:36.133 [info] Discovered env: /usr/bin/python3
+2025-12-07 18:08:36.140 [info] Resolved Python Environment /bin/python3
+2025-12-07 18:08:39.098 [error] Unable to find Conda Manager for Conda env (even though we have a conda_dir "/mnt/c/Users/nyter/anaconda3"): Env Details = CondaEnvironment { prefix: "/mnt/c/Users/nyter/anaconda3/envs/twitterEnv", executable: None, version: None, conda_dir: Some("/mnt/c/Users/nyter/anaconda3"), arch: None }
+2025-12-07 18:08:39.098 [error] Unable to find Conda Manager for Conda env (even though we have a conda_dir "/mnt/c/Users/nyter/anaconda3"): Env Details = CondaEnvironment { prefix: "/mnt/c/Users/nyter/anaconda3/envs/amazon_data", executable: None, version: None, conda_dir: Some("/mnt/c/Users/nyter/anaconda3"), arch: None }
+2025-12-07 18:08:39.098 [error] Unable to find Conda Manager for Conda env (even though we have a conda_dir "/mnt/c/Users/nyter/anaconda3"): Env Details = CondaEnvironment { prefix: "/mnt/c/Users/nyter/anaconda3", executable: None, version: None, conda_dir: Some("/mnt/c/Users/nyter/anaconda3"), arch: None }
+2025-12-07 18:08:39.098 [error] Unable to find Conda Manager for Conda env (even though we have a conda_dir "/mnt/c/Users/nyter/anaconda3"): Env Details = CondaEnvironment { prefix: "/mnt/c/Users/nyter/anaconda3/envs/uber_data", executable: None, version: None, conda_dir: Some("/mnt/c/Users/nyter/anaconda3"), arch: None }
+2025-12-07 18:08:39.102 [info] Discovered env: /mnt/c/Users/nyter/anaconda3
+2025-12-07 18:08:39.105 [info] Discovered env: /mnt/c/Users/nyter/anaconda3/envs/twitterEnv
+2025-12-07 18:08:39.109 [info] Discovered env: /mnt/c/Users/nyter/anaconda3/envs/amazon_data
+2025-12-07 18:08:39.110 [info] Discovered env: /mnt/c/Users/nyter/anaconda3/envs/uber_data
+2025-12-07 18:08:39.110 [info] Locator Conda took 4.2457272s
+2025-12-07 18:08:39.110 [info] Locator Homebrew took 155.6µs
+2025-12-07 18:08:39.110 [info] Locator LinuxGlobal took 56.3513ms
+2025-12-07 18:08:39.110 [info] Locator PipEnv took 27.5µs
+2025-12-07 18:08:39.110 [info] Locator Pixi took 132.2µs
+2025-12-07 18:08:39.110 [info] Locator Poetry took 144.7272ms
+2025-12-07 18:08:39.110 [info] Locator PyEnv took 144.5292ms
+2025-12-07 18:08:39.110 [info] Locator Venv took 21.8µs
+2025-12-07 18:08:39.110 [info] Locator VirtualEnv took 37.1µs
+2025-12-07 18:08:39.110 [info] Locator VirtualEnvWrapper took 94.8µs
+2025-12-07 18:08:39.110 [info] Locator GlobalVirtualEnvs took 1.2968ms
+2025-12-07 18:08:39.110 [info] Locator Locators took 4.2465804s
+2025-12-07 18:08:39.110 [info] Locator Path took 1.2975379s
+2025-12-07 18:08:39.110 [info] Locator Workspaces took 3.456ms
+2025-12-07 18:08:39.110 [info] Refresh completed in 4246ms
+2025-12-07 18:13:00.863 [info] Resolved Python Environment /bin/python3

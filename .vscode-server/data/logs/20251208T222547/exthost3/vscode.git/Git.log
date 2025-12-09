@@ -1,0 +1,81 @@
+2025-12-08 22:26:15.630 [info] [main] Log level: Info
+2025-12-08 22:26:15.631 [info] [main] Validating found git in: "git"
+2025-12-08 22:26:15.631 [info] [main] Using git "2.43.0" from "git"
+2025-12-08 22:26:15.631 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-08 22:26:15.631 [info] > git rev-parse --show-toplevel [13ms]
+2025-12-08 22:26:15.637 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [36ms]
+2025-12-08 22:26:15.647 [info] [Model][openRepository] Opened repository (path): /home/terry
+2025-12-08 22:26:15.647 [info] [Model][openRepository] Opened repository (real path): /home/terry
+2025-12-08 22:26:15.647 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-08 22:26:15.745 [info] > git config --get commit.template [88ms]
+2025-12-08 22:26:15.753 [info] > git rev-parse --show-toplevel [87ms]
+2025-12-08 22:26:15.762 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-08 22:26:15.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2025-12-08 22:26:15.776 [warning] [Git][getBranch] No such branch: main
+2025-12-08 22:26:15.803 [info] > git rev-parse --show-toplevel [33ms]
+2025-12-08 22:26:15.814 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [22ms]
+2025-12-08 22:26:15.823 [info] > git rev-parse --show-toplevel [12ms]
+2025-12-08 22:26:15.842 [info] > git rev-parse --show-toplevel [8ms]
+2025-12-08 22:26:15.856 [info] > git rev-parse --show-toplevel [5ms]
+2025-12-08 22:26:15.868 [info] > git rev-parse --show-toplevel [3ms]
+2025-12-08 22:26:15.870 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-08 22:26:16.457 [info] > git status -z -uall [673ms] (cancelled)
+2025-12-08 22:26:16.457 [info] > git check-ignore -v -z --stdin [149ms]
+2025-12-08 22:26:16.509 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [70ms]
+2025-12-08 22:26:16.510 [warning] [Git][getBranch] No such branch: main
+2025-12-08 22:26:16.510 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-12-08 22:26:17.479 [info] > git show --textconv :repos/weather-data-project/docker-compose.yaml [1001ms]
+2025-12-08 22:26:17.479 [info] > git ls-files --stage -- repos/weather-data-project/docker-compose.yaml [992ms]
+2025-12-08 22:26:17.495 [info] > git config --get commit.template [1028ms]
+2025-12-08 22:26:17.522 [info] > git check-ignore -v -z --stdin [19ms]
+2025-12-08 22:26:17.523 [info] > git hash-object -t tree /dev/null [28ms]
+2025-12-08 22:26:17.523 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/terry/repos/weather-data-project/docker-compose.yaml.git?%7B%22path%22%3A%22%2Fhome%2Fterry%2Frepos%2Fweather-data-project%2Fdocker-compose.yaml%22%2C%22ref%22%3A%22%22%7D
+2025-12-08 22:26:17.524 [info] > git hash-object -t tree /dev/null [37ms]
+2025-12-08 22:26:17.524 [warning] [GitFileSystemProvider][stat] File not found - git:/home/terry/repos/weather-data-project/docker-compose.yaml.git?%7B%22path%22%3A%22%2Fhome%2Fterry%2Frepos%2Fweather-data-project%2Fdocker-compose.yaml%22%2C%22ref%22%3A%22%22%7D
+2025-12-08 22:26:17.535 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-08 22:26:17.539 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-12-08 22:26:17.540 [warning] [Git][getBranch] No such branch: main
+2025-12-08 22:26:17.576 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [16ms]
+2025-12-08 22:26:17.780 [info] > git status -z -uall [232ms] (cancelled)
+2025-12-08 22:26:23.377 [info] > git check-ignore -v -z --stdin [2ms]
+2025-12-08 22:27:06.978 [info] > git check-ignore -v -z --stdin [2ms]
+2025-12-08 22:27:59.181 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [3ms]
+2025-12-08 22:27:59.181 [info] fatal: bad revision 'refs/heads/main'
+2025-12-08 22:27:59.182 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-12-08 22:27:59.706 [info] > git check-ignore -v -z --stdin [2ms]
+2025-12-08 22:30:08.023 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-08 22:30:08.024 [info] > git config --get commit.template [8ms]
+2025-12-08 22:30:08.025 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-08 22:30:08.025 [warning] [Git][getBranch] No such branch: main
+2025-12-08 22:30:08.043 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-08 22:30:08.247 [info] > git status -z -uall [215ms] (cancelled)
+2025-12-08 22:30:18.619 [info] > git check-ignore -v -z --stdin [8ms]
+2025-12-08 22:31:21.830 [info] > git check-ignore -v -z --stdin [8ms]
+2025-12-08 22:31:35.315 [info] > git show --textconv :.gitignore [9ms]
+2025-12-08 22:31:35.315 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/terry/.gitignore.git?%7B%22path%22%3A%22%2Fhome%2Fterry%2F.gitignore%22%2C%22ref%22%3A%22%22%7D
+2025-12-08 22:31:35.319 [info] > git ls-files --stage -- .gitignore [6ms]
+2025-12-08 22:31:35.320 [warning] [GitFileSystemProvider][stat] File not found - git:/home/terry/.gitignore.git?%7B%22path%22%3A%22%2Fhome%2Fterry%2F.gitignore%22%2C%22ref%22%3A%22%22%7D
+2025-12-08 22:31:40.822 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-08 22:31:40.829 [info] > git config --get commit.template [8ms]
+2025-12-08 22:31:40.830 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-08 22:31:40.830 [warning] [Git][getBranch] No such branch: main
+2025-12-08 22:31:40.847 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-08 22:31:41.030 [info] > git status -z -uall [193ms] (cancelled)
+2025-12-08 22:31:43.038 [info] > git show --textconv :.gitignore [26ms]
+2025-12-08 22:31:43.038 [info] > git show --textconv HEAD:.gitignore [18ms]
+2025-12-08 22:31:43.038 [info] > git ls-files --stage -- .gitignore [9ms]
+2025-12-08 22:31:43.047 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/terry/.gitignore.git?%7B%22path%22%3A%22%2Fhome%2Fterry%2F.gitignore%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-12-08 22:31:43.049 [info] > git ls-tree -l HEAD -- .gitignore [11ms]
+2025-12-08 22:31:43.049 [info] fatal: Not a valid object name HEAD
+2025-12-08 22:31:43.049 [warning] [GitFileSystemProvider][stat] File not found - git:/home/terry/.gitignore.git?%7B%22path%22%3A%22%2Fhome%2Fterry%2F.gitignore%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-12-08 22:31:43.049 [info] > git cat-file -s f2b3d0d52f3579d63f86da869b1bca19a83e3dfe [3ms]
+2025-12-08 22:31:58.321 [info] > git show --textconv :repos/weather-data-project/.gitignore [10ms]
+2025-12-08 22:31:58.322 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/terry/repos/weather-data-project/.gitignore.git?%7B%22path%22%3A%22%2Fhome%2Fterry%2Frepos%2Fweather-data-project%2F.gitignore%22%2C%22ref%22%3A%22%22%7D
+2025-12-08 22:31:58.327 [info] > git ls-files --stage -- repos/weather-data-project/.gitignore [7ms]
+2025-12-08 22:31:58.328 [warning] [GitFileSystemProvider][stat] File not found - git:/home/terry/repos/weather-data-project/.gitignore.git?%7B%22path%22%3A%22%2Fhome%2Fterry%2Frepos%2Fweather-data-project%2F.gitignore%22%2C%22ref%22%3A%22%22%7D
+2025-12-08 22:31:58.582 [info] > git check-ignore -v -z --stdin [9ms]

@@ -1,0 +1,47 @@
+2025-12-08 22:25:52.891 [info] [main] Log level: Info
+2025-12-08 22:25:52.891 [info] [main] Validating found git in: "git"
+2025-12-08 22:25:52.891 [info] [main] Using git "2.43.0" from "git"
+2025-12-08 22:25:52.891 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-08 22:25:52.891 [info] > git rev-parse --show-toplevel [74ms]
+2025-12-08 22:25:52.891 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [33ms]
+2025-12-08 22:25:52.891 [info] [Model][openRepository] Opened repository (path): /home/terry
+2025-12-08 22:25:52.891 [info] [Model][openRepository] Opened repository (real path): /home/terry
+2025-12-08 22:25:52.891 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-08 22:25:52.894 [info] > git rev-parse --show-toplevel [17ms]
+2025-12-08 22:25:52.895 [info] > git config --get commit.template [27ms]
+2025-12-08 22:25:52.916 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-08 22:25:52.918 [info] > git rev-parse --show-toplevel [14ms]
+2025-12-08 22:25:52.920 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-12-08 22:25:52.921 [warning] [Git][getBranch] No such branch: main
+2025-12-08 22:25:53.108 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [165ms]
+2025-12-08 22:25:53.189 [info] > git rev-parse --show-toplevel [234ms]
+2025-12-08 22:25:53.208 [info] > git rev-parse --show-toplevel [7ms]
+2025-12-08 22:25:53.224 [info] > git rev-parse --show-toplevel [6ms]
+2025-12-08 22:25:53.243 [info] > git rev-parse --show-toplevel [7ms]
+2025-12-08 22:25:53.415 [info] > git status -z -uall [484ms] (cancelled)
+2025-12-08 22:25:54.649 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1238ms]
+2025-12-08 22:25:54.649 [warning] [Git][getBranch] No such branch: main
+2025-12-08 22:25:54.649 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-12-08 22:25:54.650 [info] > git rev-parse --show-toplevel [1394ms]
+2025-12-08 22:25:54.650 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-08 22:25:54.712 [info] > git check-ignore -v -z --stdin [53ms]
+2025-12-08 22:25:54.713 [info] > git config --get commit.template [87ms]
+2025-12-08 22:25:54.718 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-08 22:25:54.733 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-12-08 22:25:54.733 [warning] [Git][getBranch] No such branch: main
+2025-12-08 22:25:54.772 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [19ms]
+2025-12-08 22:25:55.044 [info] > git show --textconv :repos/weather-data-project/docker/.env [12ms]
+2025-12-08 22:25:55.073 [info] > git ls-files --stage -- repos/weather-data-project/docker/.env [31ms]
+2025-12-08 22:25:55.100 [info] > git hash-object -t tree /dev/null [17ms]
+2025-12-08 22:25:55.100 [warning] [GitFileSystemProvider][stat] File not found - git:/home/terry/repos/weather-data-project/docker/.env.git?%7B%22path%22%3A%22%2Fhome%2Fterry%2Frepos%2Fweather-data-project%2Fdocker%2F.env%22%2C%22ref%22%3A%22%22%7D
+2025-12-08 22:25:55.281 [info] > git hash-object -t tree /dev/null [190ms]
+2025-12-08 22:25:55.281 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/terry/repos/weather-data-project/docker/.env.git?%7B%22path%22%3A%22%2Fhome%2Fterry%2Frepos%2Fweather-data-project%2Fdocker%2F.env%22%2C%22ref%22%3A%22%22%7D
+2025-12-08 22:25:55.405 [info] > git show --textconv :repos/weather-data-project/docker-compose.yaml [159ms]
+2025-12-08 22:25:55.405 [info] > git ls-files --stage -- repos/weather-data-project/docker-compose.yaml [149ms]
+2025-12-08 22:25:55.406 [warning] [GitFileSystemProvider][stat] File not found - git:/home/terry/repos/weather-data-project/docker-compose.yaml.git?%7B%22path%22%3A%22%2Fhome%2Fterry%2Frepos%2Fweather-data-project%2Fdocker-compose.yaml%22%2C%22ref%22%3A%22%22%7D
+2025-12-08 22:25:55.406 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/terry/repos/weather-data-project/docker-compose.yaml.git?%7B%22path%22%3A%22%2Fhome%2Fterry%2Frepos%2Fweather-data-project%2Fdocker-compose.yaml%22%2C%22ref%22%3A%22%22%7D
+2025-12-08 22:25:55.540 [info] > git status -z -uall [797ms] (cancelled)
+2025-12-08 22:25:55.540 [info] > git show --textconv :repos/weather-data-project/postgres/superset_init.sql [119ms]
+2025-12-08 22:25:55.540 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/terry/repos/weather-data-project/postgres/superset_init.sql.git?%7B%22path%22%3A%22%2Fhome%2Fterry%2Frepos%2Fweather-data-project%2Fpostgres%2Fsuperset_init.sql%22%2C%22ref%22%3A%22%22%7D
+2025-12-08 22:25:55.546 [info] > git ls-files --stage -- repos/weather-data-project/postgres/superset_init.sql [116ms]
+2025-12-08 22:25:55.547 [warning] [GitFileSystemProvider][stat] File not found - git:/home/terry/repos/weather-data-project/postgres/superset_init.sql.git?%7B%22path%22%3A%22%2Fhome%2Fterry%2Frepos%2Fweather-data-project%2Fpostgres%2Fsuperset_init.sql%22%2C%22ref%22%3A%22%22%7D

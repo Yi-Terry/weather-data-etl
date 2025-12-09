@@ -1,0 +1,37 @@
+2025-12-04 19:32:49.800 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-12-04 19:32:49.800 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-12-04 19:32:49.800 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-12-04 19:32:49.800 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-12-04 19:32:50.000 [info] Logged in as Yi-Terry
+2025-12-04 19:32:50.006 [info] Can't use the Electron fetcher in this environment.
+2025-12-04 19:32:50.006 [info] Using the Node fetch fetcher.
+2025-12-04 19:32:50.468 [info] FetcherService: node-fetch failed with status: 403 
+2025-12-04 19:32:50.697 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-12-04 19:32:50.699 [warning] Invalid copilot token: missing token: 403 
+2025-12-04 19:32:50.701 [error] Error: No access to GitHub Copilot found. You are currently logged in as Yi-Terry.
+    at FG._authShowWarnings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:31940)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at FG.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+    at LV.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+    at KI.waitForChatEnabled (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:29370)
+    at KI.run (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:29254)
+    at n5.askToUpgradeAuthPermissions (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:28734): Failed to get copilot token
+2025-12-04 19:32:50.701 [error] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as Yi-Terry."
+2025-12-04 19:32:50.701 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-12-04 19:32:50.701 [error] Error: No access to GitHub Copilot found. You are currently logged in as Yi-Terry.
+    at FG._authShowWarnings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:31940)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at FG.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+    at LV.getCopilotToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+    at k6._getToken (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1122:5850)
+    at r (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1122:5314)
+    at k6._registerEmbeddings (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:1122:5811)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 1)
+    at QB.waitForActivationBlockers (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:938:1262)
+    at /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:938:2021
+    at S_t (/home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4/dist/extension.js:938:1889)
+    at Uy.n (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Uy.m (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Uy.l (file:///home/terry/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+2025-12-04 19:32:50.701 [info] activationBlocker from 'languageModelAccess' took for 680ms

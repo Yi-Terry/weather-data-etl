@@ -1,0 +1,22 @@
+2025-12-08 20:22:35.575 [info] 
+
+
+
+
+2025-12-08 20:22:35.589 [info] Extension host agent started.
+2025-12-08 20:22:35.733 [info] [127.0.0.1][f1efb3db][ManagementConnection] New connection established.
+2025-12-08 20:22:35.735 [info] Deleted marked for removal extension from disk github.copilot-chat /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.4
+2025-12-08 20:22:36.706 [info] [127.0.0.1][d0d5d1cd][ExtensionHostConnection] New connection established.
+2025-12-08 20:22:36.714 [info] [127.0.0.1][d0d5d1cd][ExtensionHostConnection] <480> Launched Extension Host Process.
+2025-12-08 20:23:14.208 [info] [127.0.0.1][f1efb3db][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-12-08 20:23:14.322 [info] [127.0.0.1][d0d5d1cd][ExtensionHostConnection] <480> Extension Host Process exited with code: 0, signal: null.
+2025-12-08 20:23:15.882 [info] [127.0.0.1][105d37f1][ManagementConnection] New connection established.
+2025-12-08 20:23:16.431 [info] [127.0.0.1][3160b696][ExtensionHostConnection] New connection established.
+2025-12-08 20:23:16.438 [info] [127.0.0.1][3160b696][ExtensionHostConnection] <729> Launched Extension Host Process.
+2025-12-08 20:23:22.503 [info] [127.0.0.1][105d37f1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-12-08 20:23:22.628 [info] [127.0.0.1][3160b696][ExtensionHostConnection] <729> Extension Host Process exited with code: 0, signal: null.
+2025-12-08 20:23:23.962 [info] [127.0.0.1][a1ec5ca3][ManagementConnection] New connection established.
+2025-12-08 20:23:24.389 [info] [127.0.0.1][31324211][ExtensionHostConnection] New connection established.
+2025-12-08 20:23:24.395 [info] [127.0.0.1][31324211][ExtensionHostConnection] <784> Launched Extension Host Process.
+2025-12-08 22:24:14.019 [info] [127.0.0.1][a1ec5ca3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-12-08 22:24:14.553 [info] [127.0.0.1][31324211][ExtensionHostConnection] <784> Extension Host Process exited with code: 0, signal: null.

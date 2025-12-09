@@ -1,0 +1,45 @@
+2025-12-07 12:46:12.315 [info] Starting Python Locator /home/terry/.vscode-server/extensions/ms-python.python-2025.18.0-linux-x64/python-env-tools/bin/pet server
+2025-12-07 12:46:12.606 [info] Discovered env: /bin/python3
+2025-12-07 12:46:12.609 [info] Discovered env: /usr/bin/python3
+2025-12-07 12:46:13.548 [info] Resolved Python Environment /usr/bin/python3
+2025-12-07 12:46:13.696 [info] Resolved Python Environment /bin/python3
+2025-12-07 12:46:16.597 [error] Unable to find Conda Manager for Conda env (even though we have a conda_dir "/mnt/c/Users/nyter/anaconda3"): Env Details = CondaEnvironment { prefix: "/mnt/c/Users/nyter/anaconda3", executable: None, version: None, conda_dir: Some("/mnt/c/Users/nyter/anaconda3"), arch: None }
+2025-12-07 12:46:16.597 [error] Unable to find Conda Manager for Conda env (even though we have a conda_dir "/mnt/c/Users/nyter/anaconda3"): Env Details = CondaEnvironment { prefix: "/mnt/c/Users/nyter/anaconda3/envs/uber_data", executable: None, version: None, conda_dir: Some("/mnt/c/Users/nyter/anaconda3"), arch: None }
+2025-12-07 12:46:16.598 [error] Unable to find Conda Manager for Conda env (even though we have a conda_dir "/mnt/c/Users/nyter/anaconda3"): Env Details = CondaEnvironment { prefix: "/mnt/c/Users/nyter/anaconda3/envs/amazon_data", executable: None, version: None, conda_dir: Some("/mnt/c/Users/nyter/anaconda3"), arch: None }
+2025-12-07 12:46:16.598 [error] Unable to find Conda Manager for Conda env (even though we have a conda_dir "/mnt/c/Users/nyter/anaconda3"): Env Details = CondaEnvironment { prefix: "/mnt/c/Users/nyter/anaconda3/envs/twitterEnv", executable: None, version: None, conda_dir: Some("/mnt/c/Users/nyter/anaconda3"), arch: None }
+2025-12-07 12:46:16.601 [info] Discovered env: /mnt/c/Users/nyter/anaconda3
+2025-12-07 12:46:16.603 [info] Discovered env: /mnt/c/Users/nyter/anaconda3/envs/uber_data
+2025-12-07 12:46:16.604 [info] Discovered env: /mnt/c/Users/nyter/anaconda3/envs/twitterEnv
+2025-12-07 12:46:16.611 [info] Discovered env: /mnt/c/Users/nyter/anaconda3/envs/amazon_data
+2025-12-07 12:46:16.612 [info] Locator Conda took 4.282248675s
+2025-12-07 12:46:16.612 [info] Locator Homebrew took 152.724µs
+2025-12-07 12:46:16.613 [info] Locator LinuxGlobal took 37.152864ms
+2025-12-07 12:46:16.613 [info] Locator PipEnv took 44.213µs
+2025-12-07 12:46:16.613 [info] Locator Pixi took 34.926µs
+2025-12-07 12:46:16.613 [info] Locator Poetry took 111.033729ms
+2025-12-07 12:46:16.613 [info] Locator PyEnv took 110.840628ms
+2025-12-07 12:46:16.613 [info] Locator Venv took 441.418µs
+2025-12-07 12:46:16.613 [info] Locator VirtualEnv took 454.338µs
+2025-12-07 12:46:16.613 [info] Locator VirtualEnvWrapper took 339.972µs
+2025-12-07 12:46:16.613 [info] Locator GlobalVirtualEnvs took 2.170849ms
+2025-12-07 12:46:16.613 [info] Locator Locators took 4.283991158s
+2025-12-07 12:46:16.613 [info] Locator Path took 1.507566208s
+2025-12-07 12:46:16.613 [info] Locator Workspaces took 6.00562ms
+2025-12-07 12:46:16.613 [info] Refresh completed in 4284ms
+2025-12-07 12:47:01.150 [info] Resolved Python Environment /bin/python3
+2025-12-07 12:48:04.358 [info] Resolved Python Environment /bin/python3
+2025-12-07 12:48:38.426 [info] Resolved Python Environment /bin/python3
+2025-12-07 12:48:38.531 [info] Resolved Python Environment /home/terry/repos/weather-data-project/.venv/bin/python
+2025-12-07 12:49:12.440 [info] Resolved Python Environment /bin/python3
+2025-12-07 12:49:58.043 [info] Resolved Python Environment /bin/python3
+2025-12-07 12:51:21.071 [info] Resolved Python Environment /bin/python3
+2025-12-07 12:54:06.117 [info] Resolved Python Environment /bin/python3
+2025-12-07 13:09:45.503 [info] Resolved Python Environment /bin/python3
+2025-12-07 13:10:32.365 [info] Resolved Python Environment /bin/python3
+2025-12-07 13:16:23.316 [info] Resolved Python Environment /bin/python3
+2025-12-07 13:25:05.815 [info] Resolved Python Environment /bin/python3
+2025-12-07 13:26:03.077 [info] Resolved Python Environment /bin/python3
+2025-12-07 13:39:08.248 [info] Resolved Python Environment /bin/python3
+2025-12-07 13:42:25.644 [info] Resolved Python Environment /bin/python3
+2025-12-07 13:45:41.996 [info] Resolved Python Environment /bin/python3
+2025-12-07 13:46:59.418 [info] Resolved Python Environment /bin/python3

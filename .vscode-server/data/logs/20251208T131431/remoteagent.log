@@ -1,0 +1,28 @@
+2025-12-08 13:14:31.995 [info] 
+
+
+
+
+2025-12-08 13:14:32.015 [info] Extension host agent started.
+2025-12-08 13:14:32.143 [info] [127.0.0.1][24f64363][ManagementConnection] New connection established.
+2025-12-08 13:14:33.161 [info] [127.0.0.1][95e313cf][ExtensionHostConnection] New connection established.
+2025-12-08 13:14:33.170 [info] [127.0.0.1][95e313cf][ExtensionHostConnection] <551> Launched Extension Host Process.
+2025-12-08 13:14:35.682 [info] Getting Manifest... github.copilot-chat
+2025-12-08 13:14:35.844 [info] Installing extension: github.copilot-chat {"productVersion":{"version":"1.106.3","date":"2025-11-25T22:28:18.024Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"profileLocation":{"$mid":1,"fsPath":"/home/terry/.vscode-server/extensions/extensions.json","external":"file:///home/terry/.vscode-server/extensions/extensions.json","path":"/home/terry/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2025-12-08 13:14:41.528 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 1062ms.
+2025-12-08 13:14:42.258 [info] Extracted extension to file:///home/terry/.vscode-server/extensions/github.copilot-chat-0.33.5: github.copilot-chat
+2025-12-08 13:14:42.275 [info] Renamed to /home/terry/.vscode-server/extensions/github.copilot-chat-0.33.5
+2025-12-08 13:14:42.302 [info] Marked extension as removed github.copilot-chat-0.33.4
+2025-12-08 13:14:42.303 [info] Extension installed successfully: github.copilot-chat file:///home/terry/.vscode-server/extensions/extensions.json
+2025-12-08 13:14:47.932 [info] [127.0.0.1][24f64363][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-12-08 13:14:48.045 [info] [127.0.0.1][95e313cf][ExtensionHostConnection] <551> Extension Host Process exited with code: 0, signal: null.
+2025-12-08 13:14:49.766 [info] [127.0.0.1][7c4929d5][ManagementConnection] New connection established.
+2025-12-08 13:14:49.941 [info] [127.0.0.1][3f410019][ExtensionHostConnection] New connection established.
+2025-12-08 13:14:49.945 [info] [127.0.0.1][3f410019][ExtensionHostConnection] <739> Launched Extension Host Process.
+2025-12-08 13:15:40.340 [info] [127.0.0.1][7c4929d5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-12-08 13:15:40.449 [info] [127.0.0.1][3f410019][ExtensionHostConnection] <739> Extension Host Process exited with code: 0, signal: null.
+2025-12-08 13:15:42.207 [info] [127.0.0.1][937d1793][ManagementConnection] New connection established.
+2025-12-08 13:15:42.662 [info] [127.0.0.1][5d09aaee][ExtensionHostConnection] New connection established.
+2025-12-08 13:15:42.670 [info] [127.0.0.1][5d09aaee][ExtensionHostConnection] <945> Launched Extension Host Process.
+2025-12-08 13:20:49.386 [info] [127.0.0.1][937d1793][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-12-08 13:20:49.516 [info] [127.0.0.1][5d09aaee][ExtensionHostConnection] <945> Extension Host Process exited with code: 0, signal: null.

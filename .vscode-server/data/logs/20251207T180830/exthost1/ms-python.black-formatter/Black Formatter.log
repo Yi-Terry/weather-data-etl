@@ -1,0 +1,95 @@
+2025-12-07 18:08:35.925 [info] Name: Black Formatter
+2025-12-07 18:08:35.925 [info] Module: black
+2025-12-07 18:08:35.925 [info] Default formatter is set to null for workspace /home/terry
+2025-12-07 18:08:35.925 [warning] Black Formatter is NOT set as the default formatter for workspace /home/terry
+2025-12-07 18:08:35.925 [warning] To set Black Formatter as the default formatter, add the following to your settings.json file:
+2025-12-07 18:08:35.925 [warning] 
+"[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+}
+2025-12-07 18:08:35.925 [info] Python extension loading
+2025-12-07 18:08:35.925 [info] Waiting for interpreter from Python extension.
+2025-12-07 18:08:36.145 [info] No interpreter found from setting black-formatter.interpreter
+2025-12-07 18:08:36.145 [info] Getting interpreter from ms-python.python extension for workspace /home/terry
+2025-12-07 18:08:36.146 [info] Python extension loaded
+2025-12-07 18:08:36.149 [info] Interpreter from ms-python.python extension for /home/terry: /bin/python3
+2025-12-07 18:08:36.149 [info] Workspace settings for /home/terry (client side): {
+    "cwd": "/home/terry",
+    "workspace": "file:///home/terry",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/bin/python3"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-12-07 18:08:36.149 [info] No interpreter found from setting black-formatter.interpreter
+2025-12-07 18:08:36.149 [info] Getting interpreter from ms-python.python extension for workspace /home/terry
+2025-12-07 18:08:36.162 [info] Interpreter from ms-python.python extension for /home/terry: /bin/python3
+2025-12-07 18:08:36.162 [info] Workspace settings for /home/terry (client side): {
+    "cwd": "/home/terry",
+    "workspace": "file:///home/terry",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/bin/python3"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-12-07 18:08:36.169 [info] Global settings (client side): {
+    "cwd": "/mnt/c/Users/nyter/AppData/Local/Programs/Microsoft VS Code",
+    "workspace": "/mnt/c/Users/nyter/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-12-07 18:08:36.179 [info] Server run command: /bin/python3 /home/terry/.vscode-server/extensions/ms-python.black-formatter-2025.2.0/bundled/tool/lsp_server.py
+2025-12-07 18:08:36.180 [info] Server: Start requested.
+2025-12-07 18:08:37.015 [info] CWD Server: /home/terry
+2025-12-07 18:08:37.016 [info] Settings received on server:
+[
+    {
+        "cwd": "/home/terry",
+        "workspace": "file:///home/terry",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/bin/python3"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2025-12-07 18:08:37.016 [info] Global settings received on server:
+{
+    "cwd": "/mnt/c/Users/nyter/AppData/Local/Programs/Microsoft VS Code",
+    "workspace": "/mnt/c/Users/nyter/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2025-12-07 18:08:37.016 [info] sys.path used to run Server:
+   /home/terry/.vscode-server/extensions/ms-python.black-formatter-2025.2.0/bundled/libs
+   /home/terry/.vscode-server/extensions/ms-python.black-formatter-2025.2.0/bundled/tool
+   /usr/lib/python312.zip
+   /usr/lib/python3.12
+   /usr/lib/python3.12/lib-dynload
+   /usr/local/lib/python3.12/dist-packages
+   /usr/lib/python3/dist-packages
+2025-12-07 18:08:37.019 [info] /bin/python3 -m black --version
+2025-12-07 18:08:37.019 [info] CWD formatter: /home/terry
+2025-12-07 18:08:37.146 [info] Version info for formatter running for /home/terry:
+black, 25.1.0 (compiled: no)
+Python (CPython) 3.12.3
+
+2025-12-07 18:08:37.146 [info] SUPPORTED black>=22.3.0
+FOUND black==25.1.0
+

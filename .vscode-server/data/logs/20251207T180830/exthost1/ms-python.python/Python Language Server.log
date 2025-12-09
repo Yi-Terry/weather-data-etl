@@ -1,0 +1,23 @@
+2025-12-07 18:08:36.932 [info] Client: Pylance client (2025.10.4) started with python extension (2025.18.0)
+2025-12-07 18:08:37.566 [info] (774): Server root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 18:08:37.566 [info] (774): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2025-12-07 18:08:37.572 [info] (774): Starting service instance "terry" for workspace "/home/terry"
+2025-12-07 18:08:38.709 [info] (774): Loading background bundle file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into file:///home/terry...
+2025-12-07 18:08:38.791 [info] (774): FG(terry): Setting environmentName for service "terry": "3.12.3 (global)"
+2025-12-07 18:08:38.792 [info] (774): FG(terry): Setting pythonPath for service "terry": "/bin/python3"
+2025-12-07 18:08:38.792 [info] (774): FG(terry): No include entries specified; assuming /home/terry
+2025-12-07 18:08:38.793 [info] (774): FG(terry): Auto-excluding **/node_modules
+2025-12-07 18:08:38.793 [info] (774): FG(terry): Auto-excluding **/__pycache__
+2025-12-07 18:08:38.793 [info] (774): FG(terry): Auto-excluding **/.*
+2025-12-07 18:08:38.825 [info] (774): FG(terry): Assuming Python version 3.12.3.final.0
+2025-12-07 18:08:38.901 [info] (774): Settings have not changed. Skipping update.
+2025-12-07 18:08:39.126 [info] (774): Starting Mcp server id:4246 ...
+2025-12-07 18:08:39.365 [info] (774): PQ(terry): Priority queue background worker(2) root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 18:08:39.367 [info] (774): PQ(terry): Priority queue background worker(2) started
+2025-12-07 18:08:39.380 [info] (774): FG(terry): Found 3 source files
+2025-12-07 18:08:39.590 [info] (774): IDX(terry): Indexer background runner(3) root directory: file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist (index)
+2025-12-07 18:08:39.590 [info] (774): IDX(terry): Indexing(3) started
+2025-12-07 18:08:39.699 [info] (774): BG(terry): Loaded external background bundle file:///home/terry/.vscode-server/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2025-12-07 18:08:40.150 [info] (774): IDX(terry): scanned(3) 73 files over 1 exec env
+2025-12-07 18:08:40.342 [info] (774): IDX(terry): indexed(3) 73 files over 1 exec env
+2025-12-07 18:08:40.365 [info] (774): IDX(terry): Indexing finished(3).

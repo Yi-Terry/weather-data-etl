@@ -1,0 +1,44 @@
+2025-12-04 20:43:09.416 [info] Native locator: Refresh started
+2025-12-04 20:43:09.523 [info] Native locator: Refresh started
+2025-12-04 20:43:09.626 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2025-12-04 20:43:09.627 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2025-12-04 20:43:09.798 [info] Native locator: Refresh started
+2025-12-04 20:43:13.470 [info] Native locator: Refresh finished in 4143 ms
+2025-12-04 20:43:13.477 [info] > pyenv which python
+2025-12-04 20:43:13.477 [info] cwd: .
+2025-12-04 20:43:13.669 [info] Python interpreter path: /usr/bin/python3
+2025-12-04 20:43:16.055 [info] Starting Pylance language server.
+2025-12-04 20:43:55.583 [info] Send text to terminal: python -m pip install -U black
+2025-12-04 20:44:38.178 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:44:39.068 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:44:42.714 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:44:54.519 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:45:00.652 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:45:02.455 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:45:04.075 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:45:10.403 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:45:12.432 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:45:15.741 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:45:36.778 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:45:37.910 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:45:41.283 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:45:50.434 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:45:54.016 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:46:05.660 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:46:09.380 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:46:11.016 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:46:12.700 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:46:16.557 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:46:18.051 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:46:22.837 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:46:24.344 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:46:27.491 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:46:37.768 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:46:41.064 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/api_request.py
+2025-12-04 20:47:19.952 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/insert_records.py
+2025-12-04 20:47:21.569 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/insert_records.py
+2025-12-04 20:47:23.113 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/insert_records.py
+2025-12-04 20:47:25.758 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/insert_records.py
+2025-12-04 20:47:27.001 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/insert_records.py
+2025-12-04 20:47:33.516 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/insert_records.py
+2025-12-04 20:47:35.113 [info] Discover tests for workspace name: terry - uri: /home/terry/repos/weather-data-project/api-request/insert_records.py
